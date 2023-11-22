@@ -5,7 +5,7 @@ export function intersectionObserver() {
       const intersecting = entry.isIntersecting
       entry.target.setAttribute("style", `background-color: ${intersecting ? 'red' : 'blue'}`)
     });
-  }, {threshold: 1, rootMargin: '20px' });
+  }, {threshold: 0.5, rootMargin: '20px' });
   
   observer.observe(target!);
 }

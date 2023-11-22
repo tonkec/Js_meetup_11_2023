@@ -10,4 +10,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </main>
 `
 
-intersectionObserver()
+intersectionObserver();
