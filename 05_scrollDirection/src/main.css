@@ -1,0 +1,10 @@
+html, body {
+    margin: 0;
+}
+
+.observer__target {
+    position: relative;
+    height: 350px;
+    margin: 2500px 0;
+    background: rebeccapurple;
+  }

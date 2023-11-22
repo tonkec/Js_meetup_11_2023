@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+}
+
+nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+section {
+    height: 100vh;
+    background-color: #f1f1f1;
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
